@@ -5,9 +5,6 @@
 ## Movimiento.cs
 Controla el movimiento del perosnaje.
 
-int FuerzaDeSalto - Fuerza con la que salta el personaje
-bool EnElPiso - Inidca si el personaje esta en conacto con el piso.
-
 ### Update()
 Al presionar tecla espacio y se deteca que no esta en contacto con el piso el personaje va a saltar.
 
@@ -33,8 +30,6 @@ En caso de no destruirse por colision, el objeto se destruira al estar fuera de 
 ## Mov_Obstaculo.cs
 Controla el movimiento de los obstaculos.
 
-int Velocidad - Velocidad en la que se mueven los objetos.
-
 ### Update()
 Activa el avance del objeto.
 
@@ -44,22 +39,6 @@ El objeto se destruira al estar fuera de la pantalla.
 
 ## Spawn_Objetos.cs
 Controla la aparcion de comida y obsaculos.
-
-GameObject[] obstaculos - Arreglo de los obstaculos.
-GameObject[] comida - Arreglo de la comida.
-
-float tiempoSpawn_Obs = 2 - Tiempo, desde el incio, en el que van a aparecer los obstaculos.
-float repetirSpawn_Obs - Tiempo, a partir del primer spawn, en el que van a aparecer los objetos.
-
-Transform GenAbajoD - Generador de obstaculos.
-Transform GenAbajoI - Generador de obstaculos.
-
-float tiempoSpawn_Com = 10 -Tiempo, desde el incio, en el que van a aparecer la comida.
-float repetirSpawn_Com - Tiempo, a partir del primer spawn, en el que van a aparecer la comida.
-float posisionGen_Com - Posiscion en la que va a aparecer la comida, esta puede ser arriba o abajo.
-
-Transform GenAbajo - Generador de comda.
-Transform GenArriba - Generador de comda.
 
 ### Start()
 Activa los generadores de obstaculos y comida, cada uno con sus respectivos tiempos. 
@@ -77,20 +56,12 @@ Inidca la posision en la que va a aparecer la nueva comida, basandose en posisio
 ## Puntuacion.cs
 Conrola la puntuacion del jugador con respeco al tiempo.
 
-TMP_Text puntuacion - Texo de la puntuacion (creo que esta de mas).
-float valor_p - Valor de la pntuacion.
-
 ### Update()
 Aumenta el valor de la puntuacion con respeco al tiempo y lo imprime en la pantalla.
 
 
 ## Pausar.cs
 Controla los botones y menus del juego.
-
-GameObject botonPausa - Boton de pausa.
-GameObject menuPausa - Menu de pausa.
-GameObject P_Perdiste - Pantalla que aparece al perder.
-GameObject menuPrincipal - Menu principal.
 
 ### Pausa()
 Se le incorpora al boton de pausa.
