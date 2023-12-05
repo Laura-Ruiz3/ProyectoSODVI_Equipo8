@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6be314b64bafbce438495d2ea91aaabd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - botonPausa: {fileID: 2471430294363367288, guid: 62ad073dd73122f44aafcdce0d9d4dc6, type: 3}
+  - menuPausa: {fileID: 7689930664495054189, guid: 568540bbe64c0bd4b82c72663c58cfa8, type: 3}
+  - P_Perdiste: {fileID: 5820654120888786263, guid: eec6cf70d30d2614e92cd98993a1bf20, type: 3}
+  - menuPrincipal: {fileID: 3066566939055846276, guid: f81668a563a601c49b3d2ad0bddf7e4e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
