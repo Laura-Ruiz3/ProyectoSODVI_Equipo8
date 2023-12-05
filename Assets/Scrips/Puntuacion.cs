@@ -13,7 +13,7 @@ public class Puntuacion : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -22,5 +22,10 @@ public class Puntuacion : MonoBehaviour
         valor_p += Time.deltaTime;
 
         puntuacion.text = "Puntuación: " + valor_p.ToString("0");
+    }
+
+    public void PuntuacionFruta(float puntuacion_f)
+    {
+        valor_p += puntuacion_f;
     }
 }

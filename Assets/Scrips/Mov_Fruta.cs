@@ -6,7 +6,6 @@ public class Mov_Fruta : MonoBehaviour
 {
     public int Velociad;
 
-
     // Start is called before the first frame update
     void Start()
     {

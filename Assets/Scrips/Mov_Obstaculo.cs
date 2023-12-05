@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Mov_Obstaculo : MonoBehaviour
 {
-    public int Velociad;
+    public float Velociad;
+    public float incrementoV = 0.00002f;
+
+    public float tiempo = 0f;
+    public float tiempoNivel = 20;
+    public float incrementoTN = 20;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +25,6 @@ public class Mov_Obstaculo : MonoBehaviour
 
     public void OnBecameInvisible()
     {
-        //enabled = false;
-
         Destroy(gameObject);
     }
 }
