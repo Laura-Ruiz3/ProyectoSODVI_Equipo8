@@ -29,10 +29,13 @@ En las siguientes etapas conistió en intercambiar información acerca de nuestr
 
 ![DiseñoInicialPersonaje](https://github.com/Laura-Ruiz3/ProyectoSODVI_Equipo8/assets/146133976/dc34ffc2-7ea9-4a1c-873b-3439a88e1418)
 
+En los siguientes puntos consistió en que el coder y el artista mostraran sus avances, donde se veía la movilidad, las mecánicas básicas del juego, así como algunos menúes de selección. Por el lado del artista, se veían diseños de objetos recolectables y obstáculos.
+
 ## **Conclusiones** 
 
 Laura Ruiz:
-
+Este proyecto me ha dado una vista sobre cómo es el desarrollo de software en cuestión de videojuegos. Desde el punto de vista de Manager, es saber constantemente lo que pasa en el equipo, sus avances o si se requiere ayuda en algo, cosa que se puede tornar complicada si no hay la suficiente comunicación dentro del equipo. Personalmente, siento que pude haber hecho un mejor trabajo como manager e impulsar más la comunicación entre todos los miembros, a pesar de que el resultado me parece aceptable, pienso que pudo haber quedado mejor si nos hubiéramos reunido más o comentado más cosas, por lo que la falta de organización juega un papel importante aquí.
+Aun con todo esto, me agradó la experiencia de ver cómo se desarrolla un videojuego y me gustaría explorar más a fondo este tema.
 
 Nathan Pérez:
 
