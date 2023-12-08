@@ -49,12 +49,12 @@ public class Spawn_Objetos : MonoBehaviour
         if(posisionGen_Obs == 1)
         {
             spawnPosision_Obs = new Vector2(Random.Range(GenArribaI.position.x, GenArribaD.position.x), GenArribaD.position.y);
-            GameObject obstaculo = Instantiate(obstaculos[Random.Range(0, 3)], spawnPosision_Obs, gameObject.transform.rotation);
+            GameObject obstaculo = Instantiate(obstaculos[3], spawnPosision_Obs, gameObject.transform.rotation);
         }
         else
         {
             spawnPosision_Obs = new Vector2(Random.Range(GenAbajoI.position.x, GenAbajoD.position.x), GenAbajoD.position.y);
-            GameObject obstaculo = Instantiate(obstaculos[Random.Range(0, 3)], spawnPosision_Obs, gameObject.transform.rotation);
+            GameObject obstaculo = Instantiate(obstaculos[Random.Range(0, 6)], spawnPosision_Obs, gameObject.transform.rotation);
         }
         
     }
@@ -62,7 +62,7 @@ public class Spawn_Objetos : MonoBehaviour
     public void SpawnComida()
     {
         Vector2 spawnPosision_Com = new Vector2(0, 0);
-        posisionGen_Com = Random.Range(0, 3);
+        posisionGen_Com = Random.Range(0, 2);
         if (posisionGen_Com == 1)
         {
             spawnPosision_Com = new Vector2(GenAbajo.position.x, GenAbajo.position.y);

@@ -9,11 +9,12 @@ public class Movimiento : MonoBehaviour
 
     public int FuerzaDeSalto;
     bool EnElPiso = false;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,7 +24,16 @@ public class Movimiento : MonoBehaviour
         {
             EnElPiso = false;
             this.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, FuerzaDeSalto));
-        }  
+        }
+
+        if (EnElPiso == false)
+        {
+            animator.SetBool("Salto", true);
+        }
+        else
+                {
+            animator.SetBool("Salto",false);
+        }
     }
 
     private void OnCollisionEnter2D (Collision2D collision) 

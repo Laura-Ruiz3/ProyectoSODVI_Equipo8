@@ -5,11 +5,6 @@ using UnityEngine;
 public class Mov_Obstaculo : MonoBehaviour
 {
     public float Velociad;
-    public float incrementoV = 0.00002f;
-
-    public float tiempo = 0f;
-    public float tiempoNivel = 20;
-    public float incrementoTN = 20;
 
     // Start is called before the first frame update
     void Start()
