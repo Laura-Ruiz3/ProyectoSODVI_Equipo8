@@ -3,7 +3,7 @@
 
 
 ## Movimiento.cs
-Controla el movimiento del perosnaje.
+Controla el movimiento del perosnaje. Se implmeneto una variable bool 'Salto' para poder conrolar las animacioes del personaje.
 
 ### Update()
 Al presionar tecla espacio y se deteca que no esta en contacto con el piso el personaje va a saltar.
@@ -14,8 +14,6 @@ Si el personaje colisiona con objetos indica que esta en contacto con el piso, s
 
 ## Mov_Fruta.cs
 Controla el movimiento de las frutas.
-
-int Velocidad - Velocidad en la que se mueven los objetos.
 
 ### Update()
 Activa el avance del objeto.
@@ -47,7 +45,7 @@ Activa los generadores de obstaculos y comida, cada uno con sus respectivos tiem
 Actualiza el tiempo en el que se van a repetir los SpawnObjetos.
 
 ### SpawnObjetos()
-Indica la posision en la que va a paecer el nuevo obsaculo (entre los generadores) y lo crea.
+Indica la posision en la que va a paecer el nuevo obsaculo (abajo o ariba) y lo crea (entre los generadores).
 
 ### SpawnComida()
 Inidca la posision en la que va a aparecer la nueva comida, basandose en posisionGen_Com (arriba o abajo) y lo crea.
@@ -59,6 +57,8 @@ Conrola la puntuacion del jugador con respeco al tiempo.
 ### Update()
 Aumenta el valor de la puntuacion con respeco al tiempo y lo imprime en la pantalla.
 
+### PuntuacionFruta()
+Añade la puntuacion de la comida a la puntacion total.
 
 ## Pausar.cs
 Controla los botones y menus del juego.
@@ -82,3 +82,18 @@ Hace que el tiempo avance (creo que esto a no es necesario), desaciva el menu pr
 ### Menu()
 Se le incorpora al boton que redirige al menu principal.
 Inicia la escena "Menu Principal".
+
+## Fondos.cs
+Conrola el movimiento de la imagen de fondo (este script ambien se le aplico a la imagen del piso).
+
+### Awake()
+Indica el material que se esta utilizando.
+
+### Update()
+Modifica el offset (movimiento horizontal) de la imagen.
+
+## Sonido_Boton.cs
+Controla el sonido de los botones.
+
+### SoundButton()
+Indica que audio se va a reproducir y lo activa y desactiva.
