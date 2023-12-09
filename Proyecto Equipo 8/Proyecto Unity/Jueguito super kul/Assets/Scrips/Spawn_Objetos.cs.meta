@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f223d8ebaf081b74d851dcb54ad3a0ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GenAbajoD: {fileID: 4919597728171071201, guid: ead7047d81a2c60418597e7856e09a20, type: 3}
+  - GenAbajoI: {fileID: 5366844447449174587, guid: c5376784947786c45abd40c55859e917, type: 3}
+  - GenArribaD: {fileID: 8865581199465309537, guid: 4444f6a1d475f9747b259ff65f25326f, type: 3}
+  - GenArribaI: {fileID: 6528791704335553445, guid: a612282f2b26148428daecae1a8cc3b6, type: 3}
+  - GenAbajo: {fileID: 4569159276827735168, guid: 456dd141c5849f3408fa7f948619ff5f, type: 3}
+  - GenArriba: {fileID: 7975731355188945301, guid: f6ac48b4dec3ab840aaef834c385f083, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
